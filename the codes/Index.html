@@ -1,0 +1,74 @@
+ <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Room Stuff</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href='https://css.gg/arrow-right.css' rel='stylesheet'>
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&family=Spartan:wght@500&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+    
+        <!--Header-->
+    <div class="slides-container" style="width: auto;">
+        <picture>
+        <source id="slide-mob" media="(max-width:768px)" srcset="../images/mobile-image-hero-1.jpg">
+            <source id="slide-desk" media="(min-width:1200px)" srcset="../images/desktop-image-hero-1.jpg">
+       <img src="../images/desktop-image-hero-1.jpg" class= 'slide1 fade-anime' style="width: auto;"> 
+       </picture>
+           <!--Logo-->
+           <img class = 'logo'src="../images/logo.svg" >
+       </div>
+<!--Buttons-->
+<div class="btns">
+<a class="previous" onclick="previous()" ><img class = 'arrow-previous'src="../images/icon-angle-right.svg"></a>
+<a class="next" onclick="next()" ><img class = 'arrow-next'src="../images/icon-angle-left.svg"></a>
+ </div>
+ <div class="right-content">
+    <h1 id="headline">Discover Innovative <br> ways to Decorate</h1>
+    <p class="body-copy">We Provide unmatched quality, , and style for property<br>
+        owners across the country. Our experts combine form and<br>
+        function in bringing your vision to life. Create a room in 
+        your own<br> style with our collection and make your property a 
+        reflection of<br> you and what you love.
+    </p>
+    <a href="#"class="shop-btn">SHOP NOW<i class="gg-arrow-right"></i></a>
+</div>
+<!--Navigations-->
+           <!-- Hamburger logo (Only for Mobiles)--> 
+           <a href="javascript:void(0);" class="ham" onclick="turnMenu()"><img class="hamburger"src="../images/icon-hamburger.svg"></a>
+           <nav id="nav-bar">
+               <ul>
+                   <!--Nav Items-->
+                   <li class="nav-items"><a href="" class="nav-link">Home</a> </li>
+                   <li class="nav-items"><a href="" class="nav-link">Shop</a> </li>
+                   <li class="nav-items"><a href="" class="nav-link">About</a> </li>
+                   <li class="nav-items"><a href="" class="nav-link">Contact</a></li>
+               </ul>
+                  <!-- x logo-->
+    <a href="javascript:void(0);" class="x" onclick="outMenu()"><img src="../images/icon-close.svg" alt="close"></a>
+           </nav>
+<!--Bottom Content-->
+<div id="bottom-content">
+    <div class="black-chair">
+<img class="bottom-chair-black" src="../images/image-about-dark.jpg">
+    </div>
+<div id="text">
+<h3 class="bottom-headline">ABOUT OUR FURNITURE</h3>
+<p class="body-copy">Our multifunctional collection blends,design and function to suit your individual taste. Make each room unique, or pick a cohesive theme that best express your
+interest and what inspires you. Find the furniture pieces you need, from 
+traditional to contemporary styles or anything in between. Product specialists
+are available to help you create your dream space</p>
+</div>
+<div class="white-chair">
+<img class="bottom-chair-white" src="../images/image-about-light.jpg">
+</div>
+</div>
+        <script src="ting.js" async defer></script>
+    </body>
+</html>

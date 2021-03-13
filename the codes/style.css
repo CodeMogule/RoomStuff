@@ -1,0 +1,557 @@
+
+@media (max-width:1440px){
+  
+  html, body {
+    height:50px;
+    }
+   
+    .hamburger{
+      display: none;
+    }
+
+.slide1{
+width: 60%;
+height: 470px;
+ margin: -8px 0px 0px -8px;
+}
+
+   /* Fade Animation*/
+   .fade-anime{
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+   }
+
+   @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+.logo{
+    margin: 0px -790px;
+    position: relative;
+    bottom: 400px;
+    width: auto !important;
+}
+
+#nav-bar{
+   margin: 0px 120px; 
+   position: relative;
+   bottom: 440px;
+}
+
+.x{
+  display: none;
+}
+
+a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%) ;
+}
+
+.nav-items {
+    list-style: none;
+   display: inline;
+   text-decoration: none;
+   margin: 10px;
+}
+
+.nav-items:after{
+  content: "";
+  display: inline-block;
+  border-bottom: 2px solid white;
+  width: 1.5%;
+position: relative;
+top: 10px;
+right: 30px;
+transition: .3s;
+opacity: 0;
+}
+
+.nav-items:hover::after{
+  opacity: 50;
+}
+
+/* Button Styles*/
+.btns{
+  position: relative;
+  left: -410px ;
+  top: -80px;
+  width: auto !important;
+}
+/* Next Button*/
+.next{
+background-color:hsl(0, 0%, 0%);
+font-size: 65px;
+display: block;
+width: 6%;
+float: right;
+}
+
+.arrow-next{
+  position: relative;
+  left: 30px;
+  bottom: 10px;
+}
+.next:hover{
+  background-color: hsl(0, 0%, 27%)
+}
+
+/*Previous button*/
+.previous{
+  background-color:hsl(0, 0%, 0%);
+  font-size: 65px;
+  display: block;
+  width: 6%;
+  float: right;
+  }
+
+  .arrow-previous{
+    position: relative;
+    left: 30px;
+    bottom: 10px;
+  }
+  .previous:hover{
+    background-color:hsl(0, 0%, 27%)
+  }
+
+  .shop-btn{
+    color:  hsl(0, 0%, 0%) ;
+    font-family:Spartan ;
+    font-weight: 500;
+    letter-spacing: 5px;
+    font-size: 15px;
+    position: relative;
+    top: 20px;
+  }
+
+  .shop-btn:hover{
+color: hsl(0, 0%, 63%) ;
+  }
+  
+  .gg-arrow-right{
+    position: relative;
+    left: 178px;
+    bottom: 23px;
+  }
+  
+  /* Right Content*/
+  .right-content{
+    float: right;
+    position: relative;
+    bottom: 400px;
+    left: 145px;
+  }
+
+  #headline{
+    font-family:Spartan ;
+    font-weight: 700;
+  }
+
+  .body-copy{
+    font-size: 12px;
+    font-family:Spartan ;
+    line-height: 17px;
+    color: hsl(0, 0%, 63%);
+  }
+
+  /* Bottom Content*/
+  #bottom-content{
+    display: flex;
+   width: 100%;
+   position: relative;
+   bottom: 210px;
+   height: 80%;
+  }
+
+  .bottom-headline{
+    font-family:Spartan ;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 5px;
+  }
+
+
+  #text{
+    margin-left: 25px;
+  }
+
+  .bottom-chair-black{
+    position: relative;
+    left: -20px;
+    bottom: 55px;
+    height: 275px;
+  }
+
+  .bottom-chair-white{
+    position: relative;
+    right: 19px;
+    bottom: 55px;
+    width: 390px;
+    height: 273px;
+  }
+}
+
+/* For mid Mobile Phones*/
+@media (max-width:375px){
+
+  html,body {
+   width: 100%;
+   height: 100%;
+   margin: 0px;
+   padding: 0px;
+   overflow-x: hidden;
+}
+
+
+  .slide1{
+    width: 50%;
+    height: 350px;
+     margin: -8px 0px 0px -8px;
+    }
+    .logo{
+      margin: 0px -23px;
+      position: relative;
+      bottom: 300px;
+      left: 170px;
+      width: auto !important;
+  }
+
+  .hamburger{
+    display: block;
+    position: relative;
+    bottom: 320px;
+    left: 20px;
+  }
+
+  .x{
+    position: relative;
+    bottom: 320px;
+    right: 10px;
+    display: block;
+
+  }
+
+  #nav-bar{
+    margin: 100px 0px; 
+    position: relative;
+    left: 30px;
+    bottom: 330px;
+    font-size: 16px;
+    display:none;
+    
+ }
+
+ ul{
+  background-color: white ;
+  height: 120px;
+  width: 280%;
+  position: relative;
+  right: 150px;
+  bottom: 150px;
+ }
+
+ .nav-items {
+  position: relative;
+  bottom: 170px;
+  left: 145px;
+  margin: 3px;
+}
+
+
+
+ a{
+  text-decoration: none;
+  color:black ;
+  font-family:American-captain;
+  position: relative;
+  font-weight: 700;
+
+  
+}
+ .right-content{
+  position:relative;
+  bottom: 50px !important;
+  left: 15px !important;
+}
+
+#headline{
+  font-family:Spartan ;
+  font-weight: 700;
+  font-size: 170%;
+}
+
+.body-copy{
+  font-size: 12px;
+  font-family:Spartan ;
+  line-height: 17px;
+  color: hsl(0, 0%, 63%);
+  margin-right: 3%;
+}
+
+br{
+  display: none;
+}
+/* Button Styles*/
+.btns{
+  position: relative;
+  left: -2px ;
+  top: -99px ;
+  display: block;
+}
+/* Next Button*/
+.next{
+background-color:hsl(0, 0%, 0%);
+font-size: 65px;
+display: block;
+width: 20%;
+float: right;
+}
+
+.arrow-next{
+  position: relative;
+  left: 30px;
+  bottom: 10px;
+}
+.next:hover{
+  background-color: hsl(0, 0%, 27%)
+}
+
+/*Previous button*/
+.previous{
+  background-color:hsl(0, 0%, 0%);
+  font-size: 65px;
+  display: block;
+  width: 20%;
+  float: right;
+  }
+
+
+ #bottom-content{
+   display: flex;
+   flex-direction: column !important;
+ width: 100%;
+ position: relative;
+ top: 100px;
+ height: 20%;
+}
+.bottom-headline{
+  font-family:Spartan ;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 5px;
+}
+
+#text{
+  margin-left: 25px;
+}
+
+.bottom-chair-black{
+  position: relative;
+  bottom: 55px;
+  height: 240px;
+}
+
+.bottom-chair-white{
+  position: relative;
+  top: 50px;
+  height: 250px;
+}
+
+.white-chair{
+  position: relative;
+  left: 20px;
+}
+}
+
+/* For Small Mobile Phones */
+@media (max-width: 320px){
+  .slides-container{
+    position: relative;
+    right: 30px;
+  }
+
+  #nav-bar{
+    display: none;
+  }
+
+.nav-items{
+  margin: 1px;
+}
+
+ .nav-link{
+   position: relative;
+   bottom: 25px;
+   right: 20px;
+ }
+
+ .x{
+  position: relative;
+ bottom: 343px;
+ }
+
+}
+
+/* For Large Mobile Phones*/
+@media (min-width:410px) and (max-width:480px){
+  html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+ }
+
+.logo{
+  position: relative;
+  left: 480px;
+}
+.hamburger{
+  display: block;
+  position: relative;
+  bottom: 420px;
+  left: 20px;
+}
+
+/* Button Styles*/
+.btns{
+  position: relative;
+  left: -2px ;
+  top: -80px ;
+  display: block;
+}
+/* Next Button*/
+.next{
+background-color:hsl(0, 0%, 0%);
+font-size: 65px;
+display: block;
+width: 20%;
+float: right;
+}
+
+.arrow-next{
+  position: relative;
+  left: 30px;
+  bottom: 10px;
+}
+.next:hover{
+  background-color: hsl(0, 0%, 27%)
+}
+
+/*Previous button*/
+.previous{
+  background-color:hsl(0, 0%, 0%);
+  font-size: 65px;
+  display: block;
+  width: 20%;
+  float: right;
+  }
+
+
+.right-content{
+  position:relative;
+  bottom: 50px !important;
+  left: 15px !important;
+}
+#headline{
+  font-family:Spartan ;
+  font-weight: 700;
+  font-size: 150%;
+}
+
+.body-copy{
+  font-size: 12px;
+  font-family:Spartan ;
+  line-height: 17px;
+  color: hsl(0, 0%, 63%);
+  margin-right: 3%;
+}
+
+br{
+  display: none;
+}
+
+#nav-bar{
+  margin: 100px 0px; 
+  position: relative;
+  left: 30px;
+  bottom: 330px;
+  font-size: 16px;
+  display:none;
+}
+.x{
+  position: relative;
+  bottom: 400px;
+  right: 10px;
+  display: block;
+}
+ul{
+  background-color: white ;
+  height: 120px;
+  width: 280%;
+  position: relative;
+  right: 150px;
+  bottom: 257px;
+ }
+
+ .nav-items {
+  position: relative;
+  bottom: 145px;
+  left: 145px;
+  margin: 3px;
+}
+
+ a{
+  text-decoration: none;
+  color:black ;
+  font-family:American-captain;
+  position: relative;
+  font-weight: 700;
+}
+
+#bottom-content{
+  display: flex;
+  flex-direction: column !important;
+width: 100%;
+position: relative;
+top: 100px;
+height: 20%;
+}
+
+.bottom-headline{
+ font-family:Spartan ;
+ font-size: 12px;
+ font-weight: 700;
+ letter-spacing: 5px;
+}
+
+#text{
+ margin-left: 25px;
+}
+
+.bottom-chair-black{
+ position: relative;
+ bottom: 55px;
+ height: 270px;
+}
+
+.bottom-chair-white{
+ position: relative;
+ top: 50px;
+ height: 300px;
+ width: 100%;
+}
+
+.white-chair{
+ position: relative;
+ left: 20px;
+}
+
+}
+
